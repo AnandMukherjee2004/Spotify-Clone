@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="icon" href="Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="container flex">
+
+        <div class="playbar flex">
+            <div class="left flex">
+                <img src="Assets/pngwing.com.png" alt="">
+                <div class="about-song">
+                    <h4>Starboy</h4>
+                    <p class="font-color-dull">The Weekend, Daft Punk</p>
+                </div>
+                <i class="fa-regular fa-heart font-color-dull hover"></i>
+            </div>
+
+            <div class="middle flex">
+                <div class="player-controls flex">
+                    <img src="Assets/player_icon1.png" alt="" class="tertiary-icon font-color-dull hover" id="tertiary-icon-1">
+                    <img src="Assets/player_icon2.png" alt="" class="secondary-icon" id="secondary-icon-1">
+                    <img src="Assets/play_musicbar.png" alt="" class="primary-icon" id="primary-icon">
+                    <img src="Assets/player_icon4.png" alt="" class="secondary-icon" id="secondary-icon-2">
+                    <img src="Assets/player_icon5.png" alt="" class="tertiary-icon font-color-dull hover" id="tertiary-icon-2">
+                </div>
+
+                <div class="playback-bar flex">
+                    <span class="time-stamp font-color-dull">0:00</span>
+                    <input type="range" class="progress-bar" value="0"> 
+                    <span class="time-stamp font-color-dull">5:37</span>
+                </div>
+            </div>
+
+            <div class="right flex hover font-color-dull">
+                <img src="Assets/playbar right img.png" alt="">
+            </div>
+        </div>
+
+        <div class="sidebar border-radius ">
+
+            <div class="sidebar-nav border-radius flex">
+                <p>
+                    <i class="fa-solid fa-house"></i> 
+                    <a href="#" class="">Home</a>
+                </p>
+
+                <p class="font-color-dull hover">
+                    
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#" class="hover">Search</a>
+
+                </p>
+            </div>
+
+            <div class="sidebar-main border-radius">
+
+                <header class="flex ">
+                    <div class="items hover font-color-dull flex">
+                        <img src="Assets/library_icon.png" alt="" class="library_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons flex">
+                        <i class="fa-solid fa-plus font-color-dull hover"></i>
+                        <i class="fa-solid fa-arrow-right font-color-dull hover"></i>
+                    </div>
+                </header>
+
+                <main>
+                    <div class="box box1 border-radius">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <p>
+                            <button class="button">Create Playlist</button>
+                        </p>
+                    </div>
+
+                    <div class="box box2 border-radius">
+                        <p class="p1">Let's find some podcast to <br>follow</p>
+                        <p class="p2">We'll keep you updated on new <br>episodes</p>
+                        <p>
+                            <button class="button">Browse Podcasts</button>
+                        </p>
+                    </div>
+                </main>
+
+            </div>
+        </div>
+
+
+        <div class="main border-radius">
+            <div class="main-navbar flex">
+                <div class="left flex">
+                    <img src="Assets/backward_icon.png" alt="">
+                    <img src="Assets/forward_icon.png" alt="">
+                </div>
+
+                <div class="right flex">
+                    <button class="button hover">Explore Premium</button>
+                    <button class="button install-button hover">
+                        <i class="fa-regular fa-circle-down hover"></i>Install App</button>
+                    <i class="fa-regular fa-user hover"></i>
+                </div>
+            </div>
+
+
+            <div class="container2">
+                <header class="flex">
+                    <h3>Recently Played</h3>
+                    <span class="hover">show all</span>
+                </header>
+    
+                <div class="cards-container flex">
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="Assets/card1img.jpeg" alt="">
+                                    
+                            <div class="info">
+                                <h3>Top 50 - Global</h3>
+                                <p>Your daily update of the most played tracks right...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <header class="flex">
+                    <h3>Trending now near you</h3>
+                    <span class="hover">show all</span>
+                </header>
+            
+                <body>
+                    <div class="cards-container flex">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/card2img.jpeg" alt="">
+                                <div class="info">
+                                    <h3>Mahiye Jinna Sona</h3>
+                                    <p>Darshan Rawal</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/tune jo na kaha.jpg" alt="">
+                                <div class="info">
+                                    <h3>Tune Jo Na Kaha
+                                    </h3>
+                                    <p>Pritam, Mohit Chauhan, Sandeep Shrivastava</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/Rang lageya.jpg" alt="">
+                                <div class="info">
+                                    <h3>Rang Lageya</h3>
+                                    <p>Mohit Chauhan, Rochak Kohli</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/aankho se batana.jpg" alt="">
+                                <div class="info">
+                                    <h3>Aankhon Se Batana </h3>
+                                    <p>Dikshant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/kahani.jpg" alt="">
+                                <div class="info">
+                                    <h3>Kahani Suno 2.0</h3>
+                                    <p>Kaifi Khalil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </body>
+            </div>
+
+            <div class="container2">
+                <header class="flex">
+                    <h3>Best of Artists</h3>
+                    <span class="hover">show all</span>
+                </header>
+            
+                <body>
+                    <div class="cards-container flex">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/AR.Rahman.jpg" alt="">
+                                <div class="info">
+                                    <h3>This is A.R. Rahman</h3>
+                                    <p>This is A.R. Rahman. The essential tracks, all in...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/Kishore.jpg" alt="">
+                                <div class="info">
+                                    <h3>This is Kishore Kumar</h3>
+                                    <p>This is Kishore Kumar. The essential tracks, all in...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/Atif.jpg" alt="">
+                                <div class="info">
+                                    <h3>This is Atif Aslam</h3>
+                                    <p>This is Atif Aslam. The essential tracks, all in...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/Manna Dey.jpg" alt="">
+                                <div class="info">
+                                    <h3>This is Manna Dey</h3>
+                                    <p>This is Manna Dey. The essential tracks, all in...</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="Assets/arijit.jpg" alt="">
+                                <div class="info">
+                                    <h3>This is Arijit</h3>
+                                    <p>This is Arijit. The essential tracks, all in...</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+                    </div>
+                </body>
+            </div>
+                
+        </div>
+
+    </div>
+
+
+</body>
+</html>
